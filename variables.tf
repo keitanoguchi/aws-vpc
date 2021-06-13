@@ -31,6 +31,5 @@ variable "private_subnet_cidr_blocks" {
 }
 
 variable "azs" {
-  type    = list(string)
-  default = []
+  type = list(string)
 }
